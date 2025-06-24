@@ -1,4 +1,4 @@
-######### MP2 BOT ###########
+#  MP2 BOT
 
 
 # DreamPoeBot 2 Custom Bot with Plugins
