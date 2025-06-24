@@ -52,10 +52,8 @@ namespace MP2.EXtensions.Tasks
                     _currentP = sObj;
                     var pos = sObj.Position;
                     if(pos == null) continue;
-                    GlobalLog.Debug("Aqui40 :");
                     if (sObj.Position.IsFar)
                     {
-                        GlobalLog.Debug("Aqui34 :");
                         if (!pos.TryCome())
                         {
                             GlobalLog.Error($"[SpecialObjectTask] Fail to move to {pos}. Marking this special object as unwalkable.");
